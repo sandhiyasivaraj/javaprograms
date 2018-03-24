@@ -10,6 +10,7 @@ class node
 		{
 			data=a;
 			next=null;
+			prev=null;
 		}
 	}
 class linked 
@@ -71,7 +72,7 @@ class linked
 			}
 			temp.next=newnode;
 			newnode.prev=temp;
-			newnode.next=null;
+			//newnode.next=null;
 		}
 
 	//INSER BEFORE A NODE
