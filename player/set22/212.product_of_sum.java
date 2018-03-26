@@ -27,9 +27,14 @@ class Ideone
 			sum1=sum1+a[i][i];
 		
 		}
-			for(i=N-1;i>=0;i--)
+			i=N-1;
+		for(j=0;j<N;j++)
 		{
-			sum2=sum2+a[i][i];
+			if(i>=0)
+			{
+			sum2=sum2+a[i][j];
+				i--;
+			}
 		
 		}
 			product=sum1*sum2;		
