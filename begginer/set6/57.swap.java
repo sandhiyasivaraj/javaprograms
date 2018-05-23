@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class Evenproduct{
+public class Swap{
 
      public static void main(String []args){
          int a,b;
