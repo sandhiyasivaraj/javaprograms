@@ -2,11 +2,11 @@ package beginner;
 
 importjava.util.Scanner;
 
-publicclass Range {
+public class Range {
 
-	privatestatic Scanner in;
+	private static Scanner in;
 
-	publicstaticvoid main(String[] args) {
+	public static void main(String[] args) {
 	in = new Scanner(System.in);
 	intN=in.nextInt();
 	intL=in.nextInt();
