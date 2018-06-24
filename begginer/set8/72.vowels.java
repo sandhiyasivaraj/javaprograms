@@ -2,10 +2,10 @@ package beginner;
 
 importjava.util.Scanner;
 
-publicclass Vowel {
+public class Vowel {
 
-	privatestatic Scanner in;
-publicstaticvoid vowels(String S) {
+	private static Scanner in;
+public static void vowels(String S) {
 	S=S.toLowerCase();
 	charch[]=S.toCharArray();
 	intcount=0;
@@ -21,7 +21,7 @@ publicstaticvoid vowels(String S) {
 	else
 		System.out.print("yes");
  }
-	publicstaticvoid main(String[] args) {
+	public static void main(String[] args) {
 		
 		in = new Scanner(System.in);
 		String S=in.next();
