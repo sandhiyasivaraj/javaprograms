@@ -1,12 +1,12 @@
 package beginner;
 
-importjava.util.Scanner;
+import java.util.Scanner;
 
-publicclass Palindrome {
+public class Palindrome {
 
-	privatestatic Scanner in;
+	private static Scanner in;
 
-	publicstaticvoid main(String[] args) {
+	public static void main(String[] args) {
 		inti,j;
 in = new Scanner(System.in);
  String S=in.next();
