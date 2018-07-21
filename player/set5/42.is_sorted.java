@@ -15,7 +15,7 @@ public class CheckSorted {
         int count=0;
        for(j=0;j<N-1;j++)
        {
-            if(arr[j]<arr[j+1])
+            if(arr[j]<=arr[j+1])
             {
                 count++;
             }
